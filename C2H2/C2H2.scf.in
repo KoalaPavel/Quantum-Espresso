@@ -1,0 +1,32 @@
+ &control
+    calculation = 'scf',
+    prefix      = 'C2H2',
+    verbosity   = 'low',
+    pseudo_dir  = './',
+    outdir      = './',
+/
+ &system    
+    ibrav       = 12,
+    a           = 2.538,
+    b           = 2.538,
+    c           = 20.000,
+    cosab       = -0.500000, 
+    nat         =  4, 
+    ntyp        = 2,
+    ecutwfc     = 60,
+    nbnd        = 12,
+/
+ &electrons
+    conv_thr    = 1d-012,
+/
+ATOMIC_SPECIES
+C  12.011 C.pbe-hgh.UPF
+H  1.0079 H.pbe-hgh.UPF
+ATOMIC_POSITIONS (angstrom)
+C -0.000000127  1.465495893  10.000196385
+C  1.269000127  0.732827575  10.459793118
+H -0.000000127  1.465530658   8.888518366
+H  1.269000127  0.732792416  11.571492131
+K_POINTS automatic
+12 12 1 0 0 0
+
