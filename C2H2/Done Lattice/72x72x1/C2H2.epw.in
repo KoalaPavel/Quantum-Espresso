@@ -1,0 +1,94 @@
+--
+&inputepw
+  prefix      = 'C2H2'
+  amass(1)    = 12.011
+  amass(2)    = 1.0079
+  outdir      = './'
+
+  ep_coupling = .true.
+  elph        = .true.
+!  kmaps       = .true.
+  epbwrite    = .true.
+  epbread     = .false.
+!  etf_mem     = 3
+!  mp_mesh_k   = .true.
+!  efermi_read = .true.
+!  fermi_energy = -3.3228
+  epwwrite    = .true.
+  epwread     = .false.
+
+  nbndsub     =  12
+!  bands_skipped = 'exclude_bands = 1-6'
+   
+  wannierize  = .true.
+  num_iter    = 300
+!  iprint      = 2
+  
+!  dis_win_max = 10.0
+!  dis_win_min = -20.0
+!  dis_froz_max= -900
+!  dis_froz_min= -1000
+
+  iverbosity  = 3
+
+  eliashberg = .false.
+  elecselfen  = .false.
+  phonselfen  = .false.
+  a2f         = .false.
+
+  fsthick     = 3.0 ! eV
+  temps      = 300 ! K
+  degaussw    = 0.01 ! eV
+!  delta_smear = 0.05
+!  degaussq = 0.1
+
+  dvscf_dir   = './save/'
+  filukk      = './C2H2.ukk'
+!  system_2d = .true.
+ 
+  scattering = .true.
+  scattering_serta = .true.
+!  scattering_0rta = .true.
+  carrier = .true.
+  ncarrier=-1E12
+  iterative_bte = .true.
+!  restart = .true.
+!  restart_step = 1000
+  mob_maxiter = 5000
+  int_mob = .false.
+!  broyden_beta = 1.0
+!  specfun_el = .true.
+!  specfun_ph = .true.
+!  delta_approx = .false.
+!  vme = .true.
+  band_plot = .false.
+!  nstemp = 3
+!  temps = 200 400
+!  tempsmax = 600
+  auto_projections =  .true.
+  scdm_proj = .true.
+  wdata(1)    = 'bands_plot = .true.'
+  wdata(2)    = 'begin kpoint_path'
+  wdata(3)    = 'G 0.000000000 0.000000000 0.000000000 M 0.500000000 0.000000000 0.000000000'
+  wdata(4)    = 'M 0.500000000 0.000000000 0.000000000 K 0.333333333 0.333333333 0.000000000'
+  wdata(5)    = 'K 0.333333333 0.333333333 0.000000000 G 0.000000000 0.000000000 0.000000000'
+  wdata(6)    = 'end kpoint_path'
+  nk1         = 12
+  nk2         = 12
+  nk3         = 1
+
+  nq1         = 12
+  nq2         = 12
+  nq3         = 1
+
+  mp_mesh_k = .true.
+!  filkf        ='C2H2_band.kpt'
+  nkf1         = 72
+  nkf2         = 72
+  nkf3         = 1
+
+  nqf1         = 72
+  nqf2         = 72
+  nqf3         = 1
+/
+
