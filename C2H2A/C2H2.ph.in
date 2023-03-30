@@ -1,0 +1,15 @@
+phonons of C2H2 on a grid! title line
+ &inputph
+    prefix = 'C2H2',
+    fildvscf = 'dvscf',
+    tr2_ph=1.0d-14,
+    amass(1)=12.011,
+    amass(2)=1.0079,
+    ldisp = .true.,
+    nq1 = 12,
+    nq2 = 12,
+    nq3 = 1,
+    fildyn = 'C2H2.dyn'
+ /
+ 
+ 
