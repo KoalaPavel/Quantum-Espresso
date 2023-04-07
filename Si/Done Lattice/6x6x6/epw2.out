@@ -1,0 +1,3187 @@
+                                                                                      
+                                       ``:oss/                                        
+                           `.+s+.     .+ys--yh+     `./ss+.                           
+                          -sh//yy+`   +yy   +yy    -+h+-oyy                           
+                          -yh- .oyy/.-sh.   .syo-.:sy-  /yh                           
+                 `.-.`    `yh+   -oyyyo.     `/syys:    oys      `.`                  
+               `/+ssys+-` `sh+      `                   oys`   .:osyo`                
+               -yh- ./syyooyo`                          .sys+/oyo--yh/                
+               `yy+    .-:-.                             `-/+/:`  -sh-                
+                /yh.                                              oys                 
+          ``..---hho---------`   .---------..`      `.-----.`    -hd+---.             
+       `./osmNMMMMMMMMMMMMMMMs. +NNMMMMMMMMNNmh+.   yNMMMMMNm-  oNMMMMMNmo++:`        
+       +sy--/sdMMMhyyyyyyyNMMh- .oyNMMmyyyyyhNMMm+` -yMMMdyyo:` .oyyNMMNhs+syy`       
+       -yy/   /MMM+.`-+/``mMMy-   `mMMh:`````.dMMN:` `MMMy-`-dhhy```mMMy:``+hs        
+        -yy+` /MMMo:-mMM+`-oo/.    mMMh:     `dMMN/`  dMMm:`dMMMMy..MMMo-.+yo`        
+         .sys`/MMMMNNMMMs-         mMMmyooooymMMNo:   oMMM/sMMMMMM++MMN//oh:          
+          `sh+/MMMhyyMMMs- `-`     mMMMMMMMMMNmy+-`   -MMMhMMMsmMMmdMMd/yy+           
+    `-/+++oyy-/MMM+.`/hh/.`mNm:`   mMMd+/////:-.`      NMMMMMd/:NMMMMMy:/yyo/:.`      
+   +os+//:-..-oMMMo:--:::-/MMMo. .-mMMd+---`           hMMMMN+. oMMMMMo. `-+osyso:`   
+   syo     `mNMMMMMNNNNNNNNMMMo.oNNMMMMMNNNN:`         +MMMMs:`  dMMMN/`     ``:syo   
+   /yh`     :syyyyyyyyyyyyyyyy+.`+syyyyyyyyo:`         .oyys:`   .oyys:`        +yh   
+   -yh-        ````````````````    `````````              ``        ``          oys   
+   -+h/------------------------::::::::://////++++++++++++++++++++++///////::::/yd:   
+   shdddddddddddddddddddddddddddddhhhhhhhhyyyyyssssssssssssssssyyyyyyyhhhhhhhddddh`   
+                                                                                      
+  S. Ponce, E. R. Margine, C. Verdi, and F. Giustino,                                 
+                                                Comput. Phys. Commun. 209, 116 (2016) 
+                                                                                      
+
+     Program EPW v.5.4.1 starts on  7Apr2023 at  2:42:54 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     8 processors
+
+     MPI processes distributed on     1 nodes
+     K-points division:     npool     =       8
+     3809 MiB available memory on the printing compute node when the environment starts
+
+     Waiting for input...
+     Reading input from standard input
+
+     Generating evenly spaced temperature list.
+                      
+     ------------------------------------------------------------------------ 
+                   RESTART - RESTART - RESTART - RESTART                         
+     Restart is done without reading PWSCF save file.                  
+     Be aware that some consistency checks are therefore not done.                  
+     ------------------------------------------------------------------------ 
+                      
+
+     --                                                                         
+
+     bravais-lattice index     =            0
+     lattice parameter (a_0)   =       0.0000  a.u.
+     unit-cell volume          =       0.0000 (a.u.)^3
+     number of atoms/cell      =            0
+     number of atomic types    =            0
+     kinetic-energy cut-off    =       0.0000  Ry
+     charge density cut-off    =       0.0000  Ry
+     Exchange-correlation= not set
+                           (  -1  -1  -1  -1  -1  -1  -1)
+
+
+     celldm(1)=    0.00000  celldm(2)=    0.00000  celldm(3)=    0.00000
+     celldm(4)=    0.00000  celldm(5)=    0.00000  celldm(6)=    0.00000
+
+     crystal axes: (cart. coord. in units of a_0)
+               a(1) = (  0.0000  0.0000  0.0000 )  
+               a(2) = (  0.0000  0.0000  0.0000 )  
+               a(3) = (  0.0000  0.0000  0.0000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/a_0)
+               b(1) = (  0.0000  0.0000  0.0000 )  
+               b(2) = (  0.0000  0.0000  0.0000 )  
+               b(3) = (  0.0000  0.0000  0.0000 )  
+
+
+     Atoms inside the unit cell: 
+
+   Cartesian axes
+
+     site n.  atom      mass           positions (a_0 units)
+
+
+     No symmetry!
+
+     G cutoff =    0.0000  (      0 G-vectors)     FFT grid: (  0,  0,  0)
+     number of k points=    0
+                       cart. coord. in units 2pi/a_0
+     EPW          :      0.00s CPU      0.00s WALL
+
+     EPW          :      0.00s CPU      0.00s WALL
+
+
+     -------------------------------------------------------------------
+     Using si.ukk from disk
+     -------------------------------------------------------------------
+
+     Symmetries of Bravais lattice:  48
+     Symmetries of crystal:          48
+
+     Do not need to read .epb files; read .fmt files
+
+
+     Band disentanglement is used: nbndsub =    8
+     Use zone-centred Wigner-Seitz cells 
+     Number of WS vectors for electrons      279
+     Number of WS vectors for phonons       43
+     Number of WS vectors for electron-phonon       43
+     Maximum number of cores for efficient parallelization      258
+     Results may improve by using use_ws == .TRUE. 
+
+     Reading Hamiltonian, Dynamical matrix and EP vertex in Wann rep from file
+
+
+     Reading interatomic force constants
+
+     Read Z* and epsilon
+     IFC last   -0.0007119
+     Norm of the difference between old and new effective charges:    0.0000000
+     Norm of the difference between old and new force-constants:    0.0000118
+     Imposed crystal ASR
+
+     Finished reading ifcs
+
+
+     Finished reading Wann rep data from file
+
+     ===================================================================
+     Memory usage:  VmHWM =        22Mb
+                   VmPeak =       278Mb
+     ===================================================================
+     
+     Using uniform q-mesh:   20  20  20
+     Size of q point mesh for interpolation:       8000
+     Using k-mesh file: ./kpt.txt
+     Size of k point mesh for interpolation:        210
+     Max number of k points per pool:               28
+
+     Fermi energy coarse grid =   6.242562 eV
+
+     Fermi energy is calculated from the fine k-mesh: Ef =   6.834558 eV
+
+     Warning: check if difference with Fermi level fine grid makes sense
+
+     ===================================================================
+     Applying a scissor shift of   0.70000 eV to the CB      5
+
+              ibndmin =     2  ebndmin =     5.718 eV
+              ibndmax =     6  ebndmax =     8.025 eV
+
+
+     Number of ep-matrix elements per pool :         2100 ~=   16.41 Kb (@ 8 bytes/ DP)
+      
+     A selecq.fmt file was found but re-created because selecqread == .FALSE. 
+     Number selected, total         100         129
+     Number selected, total         200         281
+     Number selected, total         300         404
+     Number selected, total         400         541
+     Number selected, total         500         705
+     Number selected, total         600         843
+     Number selected, total         700         990
+     Number selected, total         800        1158
+     Number selected, total         900        1306
+     Number selected, total        1000        1491
+     Number selected, total        1100        1638
+     Number selected, total        1200        1799
+     Number selected, total        1300        1986
+     Number selected, total        1400        2124
+     Number selected, total        1500        2330
+     Number selected, total        1600        2472
+     Number selected, total        1700        2652
+     Number selected, total        1800        2829
+     Number selected, total        1900        2985
+     Number selected, total        2000        3212
+     Number selected, total        2100        3381
+     Number selected, total        2200        3610
+     Number selected, total        2300        3802
+     Number selected, total        2400        3994
+     Number selected, total        2500        4184
+     Number selected, total        2600        4387
+     Number selected, total        2700        4565
+     Number selected, total        2800        4770
+     Number selected, total        2900        4998
+     Number selected, total        3000        5172
+     Number selected, total        3100        5382
+     Number selected, total        3200        5556
+     Number selected, total        3300        5697
+     Number selected, total        3400        5899
+     Number selected, total        3500        6039
+     Number selected, total        3600        6243
+     Number selected, total        3700        6399
+     Number selected, total        3800        6551
+     Number selected, total        3900        6740
+     Number selected, total        4000        6894
+     Number selected, total        4100        7076
+     Number selected, total        4200        7222
+     Number selected, total        4300        7386
+     Number selected, total        4400        7541
+     Number selected, total        4500        7684
+     Number selected, total        4600        7849
+     Number selected, total        4700        7980
+     We only need to compute     4714 q-points
+      
+     Valence band maximum    =   6.242561 eV
+     Conduction band minimum =   7.558509 eV
+
+     Temperature  100.000 K
+     Mobility VB Fermi level =   6.417144 eV
+     Mobility CB Fermi level =   7.390933 eV
+
+     Temperature  200.000 K
+     Mobility VB Fermi level =   6.603073 eV
+     Mobility CB Fermi level =   7.223153 eV
+
+     Temperature  300.000 K
+     Mobility VB Fermi level =   6.791827 eV
+     Mobility CB Fermi level =   7.055275 eV
+
+     Temperature  400.000 K
+     Mobility VB Fermi level =   6.982316 eV
+     Mobility CB Fermi level =   6.887020 eV
+
+     Temperature  500.000 K
+     Mobility VB Fermi level =   7.174044 eV
+     Mobility CB Fermi level =   6.718093 eV
+
+     ===================================================================
+     Scattering rate
+     ===================================================================
+
+
+     Fermi Surface thickness =   1.200000 eV
+     This is computed with respect to the fine Fermi level   6.834558 eV
+     Only states between   5.634558 eV and   8.034558 eV will be included
+
+     Progression iq (fine) =        100/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.124931E+07  x-axis
+                                                   0.561719E+07  y-axis
+                                                   0.219758E+15  z-axis
+                                                   0.732527E+14     avg
+      200.000      6.6031       0.999999E+13      -0.773296E+53  x-axis
+                                                   0.394123E+53  y-axis
+                                                   0.666742E+69  z-axis
+                                                   0.222247E+69     avg
+      300.000      6.7918       0.100001E+14      -0.105011E+54  x-axis
+                                                   0.105011E+54  y-axis
+                                                   0.438528E+70  z-axis
+                                                   0.146176E+70     avg
+      400.000      6.9823       0.100001E+14      -0.121938E+55  x-axis
+                                                   0.612710E+54  y-axis
+                                                   0.900764E+70  z-axis
+                                                   0.300255E+70     avg
+      500.000      7.1740       0.999991E+13      -0.244477E+55  x-axis
+                                                   0.180427E+53  y-axis
+                                                   0.120922E+71  z-axis
+                                                   0.403072E+70     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.422587E+05  x-axis
+                                                   0.198819E+09  y-axis
+                                                   0.378758E+09  z-axis
+                                                   0.192540E+09     avg
+      200.000      7.2232       0.999994E+13      -0.147288E+28  x-axis
+                                                   0.247702E+27  y-axis
+                                                   0.376389E+43  z-axis
+                                                   0.125463E+43     avg
+      300.000      7.0553       0.100000E+14      -0.100485E+28  x-axis
+                                                   0.198499E+28  y-axis
+                                                   0.116422E+44  z-axis
+                                                   0.388072E+43     avg
+      400.000      6.8870       0.999998E+13      -0.245035E+27  x-axis
+                                                   0.294042E+28  y-axis
+                                                   0.176836E+44  z-axis
+                                                   0.589452E+43     avg
+      500.000      6.7181       0.999994E+13       0.000000E+00  x-axis
+                                                   0.980142E+27  y-axis
+                                                   0.204796E+44  z-axis
+                                                   0.682654E+43     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.06s CPU      0.07s WALL (     100 calls)
+     MOB          :      0.00s CPU      0.00s WALL (       1 calls)
+
+     Progression iq (fine) =        200/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.124931E+07  x-axis
+                                                   0.561719E+07  y-axis
+                                                   0.219758E+15  z-axis
+                                                   0.732527E+14     avg
+      200.000      6.6031       0.999999E+13      -0.773296E+53  x-axis
+                                                   0.394123E+53  y-axis
+                                                   0.666742E+69  z-axis
+                                                   0.222247E+69     avg
+      300.000      6.7918       0.100001E+14      -0.451061E+52  x-axis
+                                                   0.611182E+54  y-axis
+                                                   0.438528E+70  z-axis
+                                                   0.146176E+70     avg
+      400.000      6.9823       0.100001E+14       0.000000E+00  x-axis
+                                                   0.379170E+53  y-axis
+                                                   0.900764E+70  z-axis
+                                                   0.300255E+70     avg
+      500.000      7.1740       0.999991E+13      -0.134459E+55  x-axis
+                                                   0.131223E+54  y-axis
+                                                   0.120922E+71  z-axis
+                                                   0.403072E+70     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.421879E+05  x-axis
+                                                   0.652888E+07  y-axis
+                                                   0.115270E+08  z-axis
+                                                   0.603268E+07     avg
+      200.000      7.2232       0.999994E+13       0.129540E+05  x-axis
+                                                   0.706393E+06  y-axis
+                                                   0.123875E+07  z-axis
+                                                   0.652698E+06     avg
+      300.000      7.0553       0.100000E+14       0.515260E+04  x-axis
+                                                   0.204370E+06  y-axis
+                                                   0.359691E+06  z-axis
+                                                   0.189738E+06     avg
+      400.000      6.8870       0.999998E+13       0.252990E+04  x-axis
+                                                   0.892451E+05  y-axis
+                                                   0.157711E+06  z-axis
+                                                   0.831619E+05     avg
+      500.000      6.7181       0.999994E+13       0.146675E+04  x-axis
+                                                   0.480745E+05  y-axis
+                                                   0.851692E+05  z-axis
+                                                   0.449035E+05     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.10s CPU      0.12s WALL (     201 calls)
+     MOB          :      0.00s CPU      0.01s WALL (       2 calls)
+
+     Progression iq (fine) =        300/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.194898E+06  x-axis
+                                                   0.533761E+06  y-axis
+                                                   0.713447E+06  z-axis
+                                                   0.480702E+06     avg
+      200.000      6.6031       0.999999E+13       0.759276E+04  x-axis
+                                                   0.114384E+05  y-axis
+                                                   0.173703E+05  z-axis
+                                                   0.121338E+05     avg
+      300.000      6.7918       0.100001E+14       0.209373E+04  x-axis
+                                                   0.273914E+04  y-axis
+                                                   0.396548E+04  z-axis
+                                                   0.293278E+04     avg
+      400.000      6.9823       0.100001E+14       0.103033E+04  x-axis
+                                                   0.125231E+04  y-axis
+                                                   0.170066E+04  z-axis
+                                                   0.132776E+04     avg
+      500.000      7.1740       0.999991E+13       0.652878E+03  x-axis
+                                                   0.754081E+03  y-axis
+                                                   0.969346E+03  z-axis
+                                                   0.792102E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.174758E+05  x-axis
+                                                   0.630061E+07  y-axis
+                                                   0.112285E+08  z-axis
+                                                   0.584886E+07     avg
+      200.000      7.2232       0.999994E+13       0.338164E+04  x-axis
+                                                   0.648092E+06  y-axis
+                                                   0.114428E+07  z-axis
+                                                   0.598584E+06     avg
+      300.000      7.0553       0.100000E+14       0.133031E+04  x-axis
+                                                   0.181485E+06  y-axis
+                                                   0.319448E+06  z-axis
+                                                   0.167421E+06     avg
+      400.000      6.8870       0.999998E+13       0.710658E+03  x-axis
+                                                   0.781545E+05  y-axis
+                                                   0.137371E+06  z-axis
+                                                   0.720787E+05     avg
+      500.000      6.7181       0.999994E+13       0.450417E+03  x-axis
+                                                   0.417972E+05  y-axis
+                                                   0.733856E+05  z-axis
+                                                   0.385444E+05     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.16s CPU      0.18s WALL (     302 calls)
+     MOB          :      0.01s CPU      0.01s WALL (       3 calls)
+
+     Progression iq (fine) =        400/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.119196E+06  x-axis
+                                                   0.239060E+06  y-axis
+                                                   0.371703E+06  z-axis
+                                                   0.243320E+06     avg
+      200.000      6.6031       0.999999E+13       0.488425E+04  x-axis
+                                                   0.776428E+04  y-axis
+                                                   0.121248E+05  z-axis
+                                                   0.825778E+04     avg
+      300.000      6.7918       0.100001E+14       0.125014E+04  x-axis
+                                                   0.191102E+04  y-axis
+                                                   0.270568E+04  z-axis
+                                                   0.195561E+04     avg
+      400.000      6.9823       0.100001E+14       0.605387E+03  x-axis
+                                                   0.867678E+03  y-axis
+                                                   0.113912E+04  z-axis
+                                                   0.870730E+03     avg
+      500.000      7.1740       0.999991E+13       0.384683E+03  x-axis
+                                                   0.518190E+03  y-axis
+                                                   0.643522E+03  z-axis
+                                                   0.515465E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.174746E+05  x-axis
+                                                   0.616382E+07  y-axis
+                                                   0.108956E+08  z-axis
+                                                   0.569231E+07     avg
+      200.000      7.2232       0.999994E+13       0.337729E+04  x-axis
+                                                   0.602825E+06  y-axis
+                                                   0.106395E+07  z-axis
+                                                   0.556717E+06     avg
+      300.000      7.0553       0.100000E+14       0.132134E+04  x-axis
+                                                   0.164001E+06  y-axis
+                                                   0.292389E+06  z-axis
+                                                   0.152570E+06     avg
+      400.000      6.8870       0.999998E+13       0.698440E+03  x-axis
+                                                   0.697321E+05  y-axis
+                                                   0.125138E+06  z-axis
+                                                   0.651894E+05     avg
+      500.000      6.7181       0.999994E+13       0.436753E+03  x-axis
+                                                   0.370421E+05  y-axis
+                                                   0.667178E+05  z-axis
+                                                   0.347322E+05     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.21s CPU      0.24s WALL (     403 calls)
+     MOB          :      0.01s CPU      0.02s WALL (       4 calls)
+
+     Progression iq (fine) =        500/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.119196E+06  x-axis
+                                                   0.239060E+06  y-axis
+                                                   0.371703E+06  z-axis
+                                                   0.243320E+06     avg
+      200.000      6.6031       0.999999E+13       0.488425E+04  x-axis
+                                                   0.776428E+04  y-axis
+                                                   0.121248E+05  z-axis
+                                                   0.825778E+04     avg
+      300.000      6.7918       0.100001E+14       0.125014E+04  x-axis
+                                                   0.191102E+04  y-axis
+                                                   0.270568E+04  z-axis
+                                                   0.195561E+04     avg
+      400.000      6.9823       0.100001E+14       0.605387E+03  x-axis
+                                                   0.867678E+03  y-axis
+                                                   0.113912E+04  z-axis
+                                                   0.870730E+03     avg
+      500.000      7.1740       0.999991E+13       0.384683E+03  x-axis
+                                                   0.518190E+03  y-axis
+                                                   0.643521E+03  z-axis
+                                                   0.515465E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.174690E+05  x-axis
+                                                   0.432355E+07  y-axis
+                                                   0.761935E+07  z-axis
+                                                   0.398679E+07     avg
+      200.000      7.2232       0.999994E+13       0.337421E+04  x-axis
+                                                   0.385159E+06  y-axis
+                                                   0.677718E+06  z-axis
+                                                   0.355417E+06     avg
+      300.000      7.0553       0.100000E+14       0.131767E+04  x-axis
+                                                   0.108289E+06  y-axis
+                                                   0.191616E+06  z-axis
+                                                   0.100407E+06     avg
+      400.000      6.8870       0.999998E+13       0.692032E+03  x-axis
+                                                   0.468672E+05  y-axis
+                                                   0.833134E+05  z-axis
+                                                   0.436242E+05     avg
+      500.000      6.7181       0.999994E+13       0.427961E+03  x-axis
+                                                   0.251451E+05  y-axis
+                                                   0.448170E+05  z-axis
+                                                   0.234634E+05     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.25s CPU      0.29s WALL (     504 calls)
+     MOB          :      0.01s CPU      0.02s WALL (       5 calls)
+
+     Progression iq (fine) =        600/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.100186E+06  x-axis
+                                                   0.182401E+06  y-axis
+                                                   0.300518E+06  z-axis
+                                                   0.194369E+06     avg
+      200.000      6.6031       0.999999E+13       0.433112E+04  x-axis
+                                                   0.652055E+04  y-axis
+                                                   0.104692E+05  z-axis
+                                                   0.710697E+04     avg
+      300.000      6.7918       0.100001E+14       0.107624E+04  x-axis
+                                                   0.158366E+04  y-axis
+                                                   0.228796E+04  z-axis
+                                                   0.164929E+04     avg
+      400.000      6.9823       0.100001E+14       0.509096E+03  x-axis
+                                                   0.708233E+03  y-axis
+                                                   0.948773E+03  z-axis
+                                                   0.722034E+03     avg
+      500.000      7.1740       0.999991E+13       0.317577E+03  x-axis
+                                                   0.417017E+03  y-axis
+                                                   0.529440E+03  z-axis
+                                                   0.421345E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.145469E+05  x-axis
+                                                   0.450215E+05  y-axis
+                                                   0.663639E+05  z-axis
+                                                   0.419774E+05     avg
+      200.000      7.2232       0.999994E+13       0.306268E+04  x-axis
+                                                   0.128797E+05  y-axis
+                                                   0.206504E+05  z-axis
+                                                   0.121976E+05     avg
+      300.000      7.0553       0.100000E+14       0.119841E+04  x-axis
+                                                   0.508956E+04  y-axis
+                                                   0.814403E+04  z-axis
+                                                   0.481067E+04     avg
+      400.000      6.8870       0.999998E+13       0.624229E+03  x-axis
+                                                   0.248145E+04  y-axis
+                                                   0.392228E+04  z-axis
+                                                   0.234265E+04     avg
+      500.000      6.7181       0.999994E+13       0.383590E+03  x-axis
+                                                   0.141352E+04  y-axis
+                                                   0.220161E+04  z-axis
+                                                   0.133291E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.32s CPU      0.36s WALL (     605 calls)
+     MOB          :      0.01s CPU      0.03s WALL (       6 calls)
+
+     Progression iq (fine) =        700/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.995393E+05  x-axis
+                                                   0.180469E+06  y-axis
+                                                   0.297092E+06  z-axis
+                                                   0.192367E+06     avg
+      200.000      6.6031       0.999999E+13       0.425220E+04  x-axis
+                                                   0.602686E+04  y-axis
+                                                   0.980701E+04  z-axis
+                                                   0.669536E+04     avg
+      300.000      6.7918       0.100001E+14       0.105811E+04  x-axis
+                                                   0.146105E+04  y-axis
+                                                   0.214532E+04  z-axis
+                                                   0.155482E+04     avg
+      400.000      6.9823       0.100001E+14       0.500767E+03  x-axis
+                                                   0.659917E+03  y-axis
+                                                   0.895636E+03  z-axis
+                                                   0.685440E+03     avg
+      500.000      7.1740       0.999991E+13       0.311815E+03  x-axis
+                                                   0.392096E+03  y-axis
+                                                   0.502643E+03  z-axis
+                                                   0.402185E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.145469E+05  x-axis
+                                                   0.450214E+05  y-axis
+                                                   0.663639E+05  z-axis
+                                                   0.419774E+05     avg
+      200.000      7.2232       0.999994E+13       0.306266E+04  x-axis
+                                                   0.128795E+05  y-axis
+                                                   0.206501E+05  z-axis
+                                                   0.121974E+05     avg
+      300.000      7.0553       0.100000E+14       0.119827E+04  x-axis
+                                                   0.508941E+04  y-axis
+                                                   0.814374E+04  z-axis
+                                                   0.481047E+04     avg
+      400.000      6.8870       0.999998E+13       0.623940E+03  x-axis
+                                                   0.248132E+04  y-axis
+                                                   0.392207E+04  z-axis
+                                                   0.234244E+04     avg
+      500.000      6.7181       0.999994E+13       0.383179E+03  x-axis
+                                                   0.141338E+04  y-axis
+                                                   0.220140E+04  z-axis
+                                                   0.133265E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.37s CPU      0.43s WALL (     706 calls)
+     MOB          :      0.01s CPU      0.03s WALL (       7 calls)
+
+     Progression iq (fine) =        800/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.995393E+05  x-axis
+                                                   0.180469E+06  y-axis
+                                                   0.297092E+06  z-axis
+                                                   0.192367E+06     avg
+      200.000      6.6031       0.999999E+13       0.425220E+04  x-axis
+                                                   0.602686E+04  y-axis
+                                                   0.980701E+04  z-axis
+                                                   0.669535E+04     avg
+      300.000      6.7918       0.100001E+14       0.105811E+04  x-axis
+                                                   0.146103E+04  y-axis
+                                                   0.214529E+04  z-axis
+                                                   0.155481E+04     avg
+      400.000      6.9823       0.100001E+14       0.500763E+03  x-axis
+                                                   0.659867E+03  y-axis
+                                                   0.895585E+03  z-axis
+                                                   0.685405E+03     avg
+      500.000      7.1740       0.999991E+13       0.311806E+03  x-axis
+                                                   0.392016E+03  y-axis
+                                                   0.502565E+03  z-axis
+                                                   0.402129E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.145320E+05  x-axis
+                                                   0.448845E+05  y-axis
+                                                   0.660837E+05  z-axis
+                                                   0.418334E+05     avg
+      200.000      7.2232       0.999994E+13       0.304930E+04  x-axis
+                                                   0.125059E+05  y-axis
+                                                   0.199360E+05  z-axis
+                                                   0.118304E+05     avg
+      300.000      7.0553       0.100000E+14       0.118860E+04  x-axis
+                                                   0.484042E+04  y-axis
+                                                   0.768138E+04  z-axis
+                                                   0.457014E+04     avg
+      400.000      6.8870       0.999998E+13       0.615756E+03  x-axis
+                                                   0.234276E+04  y-axis
+                                                   0.366728E+04  z-axis
+                                                   0.220860E+04     avg
+      500.000      6.7181       0.999994E+13       0.375646E+03  x-axis
+                                                   0.133141E+04  y-axis
+                                                   0.205145E+04  z-axis
+                                                   0.125284E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.41s CPU      0.48s WALL (     807 calls)
+     MOB          :      0.02s CPU      0.04s WALL (       8 calls)
+
+     Progression iq (fine) =        900/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404127E+04  x-axis
+                                                   0.584633E+04  y-axis
+                                                   0.938600E+04  z-axis
+                                                   0.642453E+04     avg
+      300.000      6.7918       0.100001E+14       0.999341E+03  x-axis
+                                                   0.141498E+04  y-axis
+                                                   0.204798E+04  z-axis
+                                                   0.148743E+04     avg
+      400.000      6.9823       0.100001E+14       0.473787E+03  x-axis
+                                                   0.638638E+03  y-axis
+                                                   0.856853E+03  z-axis
+                                                   0.656426E+03     avg
+      500.000      7.1740       0.999991E+13       0.295516E+03  x-axis
+                                                   0.378300E+03  y-axis
+                                                   0.481482E+03  z-axis
+                                                   0.385099E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.144209E+05  x-axis
+                                                   0.438999E+05  y-axis
+                                                   0.640981E+05  z-axis
+                                                   0.408063E+05     avg
+      200.000      7.2232       0.999994E+13       0.303245E+04  x-axis
+                                                   0.120654E+05  y-axis
+                                                   0.191258E+05  z-axis
+                                                   0.114079E+05     avg
+      300.000      7.0553       0.100000E+14       0.118285E+04  x-axis
+                                                   0.469034E+04  y-axis
+                                                   0.740859E+04  z-axis
+                                                   0.442726E+04     avg
+      400.000      6.8870       0.999998E+13       0.612930E+03  x-axis
+                                                   0.228081E+04  y-axis
+                                                   0.355397E+04  z-axis
+                                                   0.214924E+04     avg
+      500.000      6.7181       0.999994E+13       0.373965E+03  x-axis
+                                                   0.130006E+04  y-axis
+                                                   0.199400E+04  z-axis
+                                                   0.122267E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.48s CPU      0.55s WALL (     908 calls)
+     MOB          :      0.02s CPU      0.04s WALL (       9 calls)
+
+     Progression iq (fine) =       1000/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404127E+04  x-axis
+                                                   0.584633E+04  y-axis
+                                                   0.938600E+04  z-axis
+                                                   0.642453E+04     avg
+      300.000      6.7918       0.100001E+14       0.999341E+03  x-axis
+                                                   0.141498E+04  y-axis
+                                                   0.204798E+04  z-axis
+                                                   0.148743E+04     avg
+      400.000      6.9823       0.100001E+14       0.473787E+03  x-axis
+                                                   0.638638E+03  y-axis
+                                                   0.856853E+03  z-axis
+                                                   0.656426E+03     avg
+      500.000      7.1740       0.999991E+13       0.295516E+03  x-axis
+                                                   0.378300E+03  y-axis
+                                                   0.481482E+03  z-axis
+                                                   0.385099E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.144200E+05  x-axis
+                                                   0.438921E+05  y-axis
+                                                   0.640836E+05  z-axis
+                                                   0.407986E+05     avg
+      200.000      7.2232       0.999994E+13       0.303205E+04  x-axis
+                                                   0.120576E+05  y-axis
+                                                   0.191122E+05  z-axis
+                                                   0.114006E+05     avg
+      300.000      7.0553       0.100000E+14       0.118190E+04  x-axis
+                                                   0.468690E+04  y-axis
+                                                   0.740271E+04  z-axis
+                                                   0.442384E+04     avg
+      400.000      6.8870       0.999998E+13       0.611079E+03  x-axis
+                                                   0.227894E+04  y-axis
+                                                   0.355109E+04  z-axis
+                                                   0.214704E+04     avg
+      500.000      6.7181       0.999994E+13       0.371477E+03  x-axis
+                                                   0.129872E+04  y-axis
+                                                   0.199220E+04  z-axis
+                                                   0.122080E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.49s CPU      0.57s WALL (    1009 calls)
+     MOB          :      0.02s CPU      0.05s WALL (      10 calls)
+
+     Progression iq (fine) =       1100/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938600E+04  z-axis
+                                                   0.642453E+04     avg
+      300.000      6.7918       0.100001E+14       0.999302E+03  x-axis
+                                                   0.141492E+04  y-axis
+                                                   0.204792E+04  z-axis
+                                                   0.148738E+04     avg
+      400.000      6.9823       0.100001E+14       0.473672E+03  x-axis
+                                                   0.638490E+03  y-axis
+                                                   0.856710E+03  z-axis
+                                                   0.656291E+03     avg
+      500.000      7.1740       0.999991E+13       0.295324E+03  x-axis
+                                                   0.378076E+03  y-axis
+                                                   0.481248E+03  z-axis
+                                                   0.384883E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.144200E+05  x-axis
+                                                   0.438921E+05  y-axis
+                                                   0.640836E+05  z-axis
+                                                   0.407986E+05     avg
+      200.000      7.2232       0.999994E+13       0.303205E+04  x-axis
+                                                   0.120576E+05  y-axis
+                                                   0.191122E+05  z-axis
+                                                   0.114006E+05     avg
+      300.000      7.0553       0.100000E+14       0.118187E+04  x-axis
+                                                   0.468680E+04  y-axis
+                                                   0.740266E+04  z-axis
+                                                   0.442378E+04     avg
+      400.000      6.8870       0.999998E+13       0.610999E+03  x-axis
+                                                   0.227866E+04  y-axis
+                                                   0.355097E+04  z-axis
+                                                   0.214688E+04     avg
+      500.000      6.7181       0.999994E+13       0.371353E+03  x-axis
+                                                   0.129827E+04  y-axis
+                                                   0.199201E+04  z-axis
+                                                   0.122054E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.52s CPU      0.61s WALL (    1110 calls)
+     MOB          :      0.02s CPU      0.05s WALL (      11 calls)
+
+     Progression iq (fine) =       1200/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999263E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473559E+03  x-axis
+                                                   0.638430E+03  y-axis
+                                                   0.856554E+03  z-axis
+                                                   0.656181E+03     avg
+      500.000      7.1740       0.999991E+13       0.295138E+03  x-axis
+                                                   0.377981E+03  y-axis
+                                                   0.480988E+03  z-axis
+                                                   0.384702E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.144200E+05  x-axis
+                                                   0.438921E+05  y-axis
+                                                   0.640836E+05  z-axis
+                                                   0.407986E+05     avg
+      200.000      7.2232       0.999994E+13       0.303204E+04  x-axis
+                                                   0.120576E+05  y-axis
+                                                   0.191122E+05  z-axis
+                                                   0.114006E+05     avg
+      300.000      7.0553       0.100000E+14       0.118182E+04  x-axis
+                                                   0.468679E+04  y-axis
+                                                   0.740266E+04  z-axis
+                                                   0.442376E+04     avg
+      400.000      6.8870       0.999998E+13       0.610888E+03  x-axis
+                                                   0.227865E+04  y-axis
+                                                   0.355096E+04  z-axis
+                                                   0.214683E+04     avg
+      500.000      6.7181       0.999994E+13       0.371189E+03  x-axis
+                                                   0.129825E+04  y-axis
+                                                   0.199199E+04  z-axis
+                                                   0.122047E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.55s CPU      0.65s WALL (    1211 calls)
+     MOB          :      0.02s CPU      0.06s WALL (      12 calls)
+
+     Progression iq (fine) =       1300/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999262E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473556E+03  x-axis
+                                                   0.638428E+03  y-axis
+                                                   0.856552E+03  z-axis
+                                                   0.656179E+03     avg
+      500.000      7.1740       0.999991E+13       0.295133E+03  x-axis
+                                                   0.377978E+03  y-axis
+                                                   0.480985E+03  z-axis
+                                                   0.384699E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.144200E+05  x-axis
+                                                   0.438921E+05  y-axis
+                                                   0.640836E+05  z-axis
+                                                   0.407986E+05     avg
+      200.000      7.2232       0.999994E+13       0.303204E+04  x-axis
+                                                   0.120576E+05  y-axis
+                                                   0.191122E+05  z-axis
+                                                   0.114006E+05     avg
+      300.000      7.0553       0.100000E+14       0.118181E+04  x-axis
+                                                   0.468679E+04  y-axis
+                                                   0.740266E+04  z-axis
+                                                   0.442375E+04     avg
+      400.000      6.8870       0.999998E+13       0.610875E+03  x-axis
+                                                   0.227863E+04  y-axis
+                                                   0.355095E+04  z-axis
+                                                   0.214682E+04     avg
+      500.000      6.7181       0.999994E+13       0.371168E+03  x-axis
+                                                   0.129822E+04  y-axis
+                                                   0.199197E+04  z-axis
+                                                   0.122045E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.57s CPU      0.66s WALL (    1312 calls)
+     MOB          :      0.03s CPU      0.06s WALL (      13 calls)
+
+     Progression iq (fine) =       1400/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638417E+03  y-axis
+                                                   0.856547E+03  z-axis
+                                                   0.656170E+03     avg
+      500.000      7.1740       0.999991E+13       0.295116E+03  x-axis
+                                                   0.377958E+03  y-axis
+                                                   0.480973E+03  z-axis
+                                                   0.384682E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.144200E+05  x-axis
+                                                   0.438921E+05  y-axis
+                                                   0.640836E+05  z-axis
+                                                   0.407986E+05     avg
+      200.000      7.2232       0.999994E+13       0.303204E+04  x-axis
+                                                   0.120576E+05  y-axis
+                                                   0.191122E+05  z-axis
+                                                   0.114006E+05     avg
+      300.000      7.0553       0.100000E+14       0.118181E+04  x-axis
+                                                   0.468679E+04  y-axis
+                                                   0.740266E+04  z-axis
+                                                   0.442375E+04     avg
+      400.000      6.8870       0.999998E+13       0.610875E+03  x-axis
+                                                   0.227863E+04  y-axis
+                                                   0.355095E+04  z-axis
+                                                   0.214682E+04     avg
+      500.000      6.7181       0.999994E+13       0.371168E+03  x-axis
+                                                   0.129822E+04  y-axis
+                                                   0.199197E+04  z-axis
+                                                   0.122045E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.59s CPU      0.69s WALL (    1413 calls)
+     MOB          :      0.03s CPU      0.06s WALL (      14 calls)
+
+     Progression iq (fine) =       1500/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638417E+03  y-axis
+                                                   0.856547E+03  z-axis
+                                                   0.656170E+03     avg
+      500.000      7.1740       0.999991E+13       0.295116E+03  x-axis
+                                                   0.377958E+03  y-axis
+                                                   0.480973E+03  z-axis
+                                                   0.384682E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.144200E+05  x-axis
+                                                   0.438921E+05  y-axis
+                                                   0.640836E+05  z-axis
+                                                   0.407986E+05     avg
+      200.000      7.2232       0.999994E+13       0.303204E+04  x-axis
+                                                   0.120576E+05  y-axis
+                                                   0.191122E+05  z-axis
+                                                   0.114006E+05     avg
+      300.000      7.0553       0.100000E+14       0.118181E+04  x-axis
+                                                   0.468679E+04  y-axis
+                                                   0.740266E+04  z-axis
+                                                   0.442375E+04     avg
+      400.000      6.8870       0.999998E+13       0.610875E+03  x-axis
+                                                   0.227862E+04  y-axis
+                                                   0.355094E+04  z-axis
+                                                   0.214681E+04     avg
+      500.000      6.7181       0.999994E+13       0.371166E+03  x-axis
+                                                   0.129821E+04  y-axis
+                                                   0.199196E+04  z-axis
+                                                   0.122044E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.60s CPU      0.71s WALL (    1514 calls)
+     MOB          :      0.03s CPU      0.06s WALL (      15 calls)
+
+     Progression iq (fine) =       1600/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856545E+03  z-axis
+                                                   0.656169E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377957E+03  y-axis
+                                                   0.480969E+03  z-axis
+                                                   0.384680E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.144200E+05  x-axis
+                                                   0.438921E+05  y-axis
+                                                   0.640836E+05  z-axis
+                                                   0.407986E+05     avg
+      200.000      7.2232       0.999994E+13       0.303204E+04  x-axis
+                                                   0.120576E+05  y-axis
+                                                   0.191122E+05  z-axis
+                                                   0.114006E+05     avg
+      300.000      7.0553       0.100000E+14       0.118181E+04  x-axis
+                                                   0.468679E+04  y-axis
+                                                   0.740266E+04  z-axis
+                                                   0.442375E+04     avg
+      400.000      6.8870       0.999998E+13       0.610875E+03  x-axis
+                                                   0.227862E+04  y-axis
+                                                   0.355094E+04  z-axis
+                                                   0.214681E+04     avg
+      500.000      6.7181       0.999994E+13       0.371166E+03  x-axis
+                                                   0.129821E+04  y-axis
+                                                   0.199196E+04  z-axis
+                                                   0.122044E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.62s CPU      0.73s WALL (    1615 calls)
+     MOB          :      0.03s CPU      0.07s WALL (      16 calls)
+
+     Progression iq (fine) =       1700/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.144200E+05  x-axis
+                                                   0.438921E+05  y-axis
+                                                   0.640836E+05  z-axis
+                                                   0.407986E+05     avg
+      200.000      7.2232       0.999994E+13       0.303203E+04  x-axis
+                                                   0.120576E+05  y-axis
+                                                   0.191122E+05  z-axis
+                                                   0.114006E+05     avg
+      300.000      7.0553       0.100000E+14       0.118169E+04  x-axis
+                                                   0.468664E+04  y-axis
+                                                   0.740266E+04  z-axis
+                                                   0.442366E+04     avg
+      400.000      6.8870       0.999998E+13       0.610436E+03  x-axis
+                                                   0.227812E+04  y-axis
+                                                   0.355094E+04  z-axis
+                                                   0.214650E+04     avg
+      500.000      6.7181       0.999994E+13       0.370367E+03  x-axis
+                                                   0.129732E+04  y-axis
+                                                   0.199196E+04  z-axis
+                                                   0.121988E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.64s CPU      0.75s WALL (    1716 calls)
+     MOB          :      0.03s CPU      0.07s WALL (      17 calls)
+
+     Progression iq (fine) =       1800/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.144200E+05  x-axis
+                                                   0.438921E+05  y-axis
+                                                   0.640836E+05  z-axis
+                                                   0.407986E+05     avg
+      200.000      7.2232       0.999994E+13       0.303203E+04  x-axis
+                                                   0.120576E+05  y-axis
+                                                   0.191122E+05  z-axis
+                                                   0.114006E+05     avg
+      300.000      7.0553       0.100000E+14       0.118155E+04  x-axis
+                                                   0.468647E+04  y-axis
+                                                   0.740266E+04  z-axis
+                                                   0.442356E+04     avg
+      400.000      6.8870       0.999998E+13       0.609946E+03  x-axis
+                                                   0.227756E+04  y-axis
+                                                   0.355094E+04  z-axis
+                                                   0.214615E+04     avg
+      500.000      6.7181       0.999994E+13       0.369475E+03  x-axis
+                                                   0.129634E+04  y-axis
+                                                   0.199196E+04  z-axis
+                                                   0.121926E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.66s CPU      0.78s WALL (    1817 calls)
+     MOB          :      0.03s CPU      0.07s WALL (      18 calls)
+
+     Progression iq (fine) =       1900/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.144200E+05  x-axis
+                                                   0.438921E+05  y-axis
+                                                   0.640836E+05  z-axis
+                                                   0.407986E+05     avg
+      200.000      7.2232       0.999994E+13       0.303202E+04  x-axis
+                                                   0.120576E+05  y-axis
+                                                   0.191122E+05  z-axis
+                                                   0.114006E+05     avg
+      300.000      7.0553       0.100000E+14       0.118143E+04  x-axis
+                                                   0.468633E+04  y-axis
+                                                   0.740266E+04  z-axis
+                                                   0.442347E+04     avg
+      400.000      6.8870       0.999998E+13       0.609573E+03  x-axis
+                                                   0.227714E+04  y-axis
+                                                   0.355094E+04  z-axis
+                                                   0.214589E+04     avg
+      500.000      6.7181       0.999994E+13       0.368842E+03  x-axis
+                                                   0.129564E+04  y-axis
+                                                   0.199196E+04  z-axis
+                                                   0.121881E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.68s CPU      0.81s WALL (    1918 calls)
+     MOB          :      0.03s CPU      0.08s WALL (      19 calls)
+
+     Progression iq (fine) =       2000/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.144200E+05  x-axis
+                                                   0.438921E+05  y-axis
+                                                   0.640836E+05  z-axis
+                                                   0.407986E+05     avg
+      200.000      7.2232       0.999994E+13       0.303192E+04  x-axis
+                                                   0.120575E+05  y-axis
+                                                   0.191122E+05  z-axis
+                                                   0.114005E+05     avg
+      300.000      7.0553       0.100000E+14       0.118071E+04  x-axis
+                                                   0.468571E+04  y-axis
+                                                   0.740263E+04  z-axis
+                                                   0.442302E+04     avg
+      400.000      6.8870       0.999998E+13       0.608008E+03  x-axis
+                                                   0.227584E+04  y-axis
+                                                   0.355089E+04  z-axis
+                                                   0.214491E+04     avg
+      500.000      6.7181       0.999994E+13       0.366658E+03  x-axis
+                                                   0.129385E+04  y-axis
+                                                   0.199188E+04  z-axis
+                                                   0.121746E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.71s CPU      0.84s WALL (    2019 calls)
+     MOB          :      0.03s CPU      0.08s WALL (      20 calls)
+
+     Progression iq (fine) =       2100/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.144200E+05  x-axis
+                                                   0.438921E+05  y-axis
+                                                   0.640836E+05  z-axis
+                                                   0.407986E+05     avg
+      200.000      7.2232       0.999994E+13       0.303189E+04  x-axis
+                                                   0.120575E+05  y-axis
+                                                   0.191122E+05  z-axis
+                                                   0.114005E+05     avg
+      300.000      7.0553       0.100000E+14       0.118046E+04  x-axis
+                                                   0.468562E+04  y-axis
+                                                   0.740259E+04  z-axis
+                                                   0.442289E+04     avg
+      400.000      6.8870       0.999998E+13       0.607516E+03  x-axis
+                                                   0.227561E+04  y-axis
+                                                   0.355078E+04  z-axis
+                                                   0.214464E+04     avg
+      500.000      6.7181       0.999994E+13       0.366007E+03  x-axis
+                                                   0.129352E+04  y-axis
+                                                   0.199172E+04  z-axis
+                                                   0.121708E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.75s CPU      0.88s WALL (    2120 calls)
+     MOB          :      0.04s CPU      0.09s WALL (      21 calls)
+
+     Progression iq (fine) =       2200/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.143972E+05  x-axis
+                                                   0.438677E+05  y-axis
+                                                   0.640835E+05  z-axis
+                                                   0.407828E+05     avg
+      200.000      7.2232       0.999994E+13       0.301478E+04  x-axis
+                                                   0.120466E+05  y-axis
+                                                   0.191121E+05  z-axis
+                                                   0.113912E+05     avg
+      300.000      7.0553       0.100000E+14       0.116974E+04  x-axis
+                                                   0.467873E+04  y-axis
+                                                   0.740256E+04  z-axis
+                                                   0.441701E+04     avg
+      400.000      6.8870       0.999998E+13       0.600291E+03  x-axis
+                                                   0.227048E+04  y-axis
+                                                   0.355071E+04  z-axis
+                                                   0.214050E+04     avg
+      500.000      6.7181       0.999994E+13       0.360569E+03  x-axis
+                                                   0.128929E+04  y-axis
+                                                   0.199158E+04  z-axis
+                                                   0.121381E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.78s CPU      0.92s WALL (    2221 calls)
+     MOB          :      0.04s CPU      0.09s WALL (      22 calls)
+
+     Progression iq (fine) =       2300/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.143960E+05  x-axis
+                                                   0.438569E+05  y-axis
+                                                   0.640632E+05  z-axis
+                                                   0.407720E+05     avg
+      200.000      7.2232       0.999994E+13       0.301454E+04  x-axis
+                                                   0.120445E+05  y-axis
+                                                   0.191084E+05  z-axis
+                                                   0.113891E+05     avg
+      300.000      7.0553       0.100000E+14       0.116869E+04  x-axis
+                                                   0.467762E+04  y-axis
+                                                   0.740101E+04  z-axis
+                                                   0.441577E+04     avg
+      400.000      6.8870       0.999998E+13       0.598229E+03  x-axis
+                                                   0.226935E+04  y-axis
+                                                   0.354974E+04  z-axis
+                                                   0.213911E+04     avg
+      500.000      6.7181       0.999994E+13       0.357805E+03  x-axis
+                                                   0.128798E+04  y-axis
+                                                   0.199081E+04  z-axis
+                                                   0.121220E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.83s CPU      0.97s WALL (    2322 calls)
+     MOB          :      0.04s CPU      0.10s WALL (      23 calls)
+
+     Progression iq (fine) =       2400/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.143259E+05  x-axis
+                                                   0.437410E+05  y-axis
+                                                   0.639738E+05  z-axis
+                                                   0.406802E+05     avg
+      200.000      7.2232       0.999994E+13       0.292374E+04  x-axis
+                                                   0.119795E+05  y-axis
+                                                   0.190926E+05  z-axis
+                                                   0.113319E+05     avg
+      300.000      7.0553       0.100000E+14       0.110724E+04  x-axis
+                                                   0.463685E+04  y-axis
+                                                   0.739506E+04  z-axis
+                                                   0.437972E+04     avg
+      400.000      6.8870       0.999998E+13       0.558394E+03  x-axis
+                                                   0.224231E+04  y-axis
+                                                   0.354665E+04  z-axis
+                                                   0.211579E+04     avg
+      500.000      6.7181       0.999994E+13       0.330652E+03  x-axis
+                                                   0.126911E+04  y-axis
+                                                   0.198888E+04  z-axis
+                                                   0.119621E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.86s CPU      1.00s WALL (    2423 calls)
+     MOB          :      0.05s CPU      0.10s WALL (      24 calls)
+
+     Progression iq (fine) =       2500/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.143077E+05  x-axis
+                                                   0.435998E+05  y-axis
+                                                   0.636110E+05  z-axis
+                                                   0.405062E+05     avg
+      200.000      7.2232       0.999994E+13       0.288714E+04  x-axis
+                                                   0.110548E+05  y-axis
+                                                   0.175398E+05  z-axis
+                                                   0.104939E+05     avg
+      300.000      7.0553       0.100000E+14       0.108205E+04  x-axis
+                                                   0.395520E+04  y-axis
+                                                   0.656156E+04  z-axis
+                                                   0.386627E+04     avg
+      400.000      6.8870       0.999998E+13       0.541905E+03  x-axis
+                                                   0.185485E+04  y-axis
+                                                   0.312580E+04  z-axis
+                                                   0.184085E+04     avg
+      500.000      6.7181       0.999994E+13       0.319328E+03  x-axis
+                                                   0.103843E+04  y-axis
+                                                   0.175074E+04  z-axis
+                                                   0.103617E+04     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.89s CPU      1.04s WALL (    2524 calls)
+     MOB          :      0.05s CPU      0.10s WALL (      25 calls)
+
+     Progression iq (fine) =       2600/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.142833E+05  x-axis
+                                                   0.433708E+05  y-axis
+                                                   0.632568E+05  z-axis
+                                                   0.403036E+05     avg
+      200.000      7.2232       0.999994E+13       0.284124E+04  x-axis
+                                                   0.101897E+05  y-axis
+                                                   0.157643E+05  z-axis
+                                                   0.959841E+04     avg
+      300.000      7.0553       0.100000E+14       0.105075E+04  x-axis
+                                                   0.352157E+04  y-axis
+                                                   0.532982E+04  z-axis
+                                                   0.330071E+04     avg
+      400.000      6.8870       0.999998E+13       0.521820E+03  x-axis
+                                                   0.164238E+04  y-axis
+                                                   0.242922E+04  z-axis
+                                                   0.153114E+04     avg
+      500.000      6.7181       0.999994E+13       0.305951E+03  x-axis
+                                                   0.919437E+03  y-axis
+                                                   0.133464E+04  z-axis
+                                                   0.853341E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.92s CPU      1.08s WALL (    2625 calls)
+     MOB          :      0.05s CPU      0.11s WALL (      26 calls)
+
+     Progression iq (fine) =       2700/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.142334E+05  x-axis
+                                                   0.431974E+05  y-axis
+                                                   0.628755E+05  z-axis
+                                                   0.401021E+05     avg
+      200.000      7.2232       0.999994E+13       0.279616E+04  x-axis
+                                                   0.100525E+05  y-axis
+                                                   0.155293E+05  z-axis
+                                                   0.945932E+04     avg
+      300.000      7.0553       0.100000E+14       0.102400E+04  x-axis
+                                                   0.345812E+04  y-axis
+                                                   0.524533E+04  z-axis
+                                                   0.324249E+04     avg
+      400.000      6.8870       0.999998E+13       0.505352E+03  x-axis
+                                                   0.160729E+04  y-axis
+                                                   0.238812E+04  z-axis
+                                                   0.150025E+04     avg
+      500.000      6.7181       0.999994E+13       0.294852E+03  x-axis
+                                                   0.897421E+03  y-axis
+                                                   0.131045E+04  z-axis
+                                                   0.834240E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.95s CPU      1.12s WALL (    2726 calls)
+     MOB          :      0.05s CPU      0.11s WALL (      27 calls)
+
+     Progression iq (fine) =       2800/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141831E+05  x-axis
+                                                   0.429936E+05  y-axis
+                                                   0.626308E+05  z-axis
+                                                   0.399359E+05     avg
+      200.000      7.2232       0.999994E+13       0.275046E+04  x-axis
+                                                   0.992308E+04  y-axis
+                                                   0.153667E+05  z-axis
+                                                   0.934676E+04     avg
+      300.000      7.0553       0.100000E+14       0.997439E+03  x-axis
+                                                   0.341009E+04  y-axis
+                                                   0.519220E+04  z-axis
+                                                   0.319991E+04     avg
+      400.000      6.8870       0.999998E+13       0.489577E+03  x-axis
+                                                   0.158323E+04  y-axis
+                                                   0.236668E+04  z-axis
+                                                   0.147983E+04     avg
+      500.000      6.7181       0.999994E+13       0.284726E+03  x-axis
+                                                   0.882844E+03  y-axis
+                                                   0.129976E+04  z-axis
+                                                   0.822442E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      0.99s CPU      1.15s WALL (    2827 calls)
+     MOB          :      0.06s CPU      0.12s WALL (      28 calls)
+
+     Progression iq (fine) =       2900/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141689E+05  x-axis
+                                                   0.429604E+05  y-axis
+                                                   0.625724E+05  z-axis
+                                                   0.399006E+05     avg
+      200.000      7.2232       0.999994E+13       0.274234E+04  x-axis
+                                                   0.990346E+04  y-axis
+                                                   0.153350E+05  z-axis
+                                                   0.932692E+04     avg
+      300.000      7.0553       0.100000E+14       0.993144E+03  x-axis
+                                                   0.340242E+04  y-axis
+                                                   0.518344E+04  z-axis
+                                                   0.319300E+04     avg
+      400.000      6.8870       0.999998E+13       0.486914E+03  x-axis
+                                                   0.157937E+04  y-axis
+                                                   0.236336E+04  z-axis
+                                                   0.147655E+04     avg
+      500.000      6.7181       0.999994E+13       0.282800E+03  x-axis
+                                                   0.880484E+03  y-axis
+                                                   0.129810E+04  z-axis
+                                                   0.820463E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.02s CPU      1.19s WALL (    2928 calls)
+     MOB          :      0.06s CPU      0.13s WALL (      29 calls)
+
+     Progression iq (fine) =       3000/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141582E+05  x-axis
+                                                   0.429487E+05  y-axis
+                                                   0.625724E+05  z-axis
+                                                   0.398931E+05     avg
+      200.000      7.2232       0.999994E+13       0.273573E+04  x-axis
+                                                   0.989861E+04  y-axis
+                                                   0.153350E+05  z-axis
+                                                   0.932310E+04     avg
+      300.000      7.0553       0.100000E+14       0.989650E+03  x-axis
+                                                   0.339959E+04  y-axis
+                                                   0.518343E+04  z-axis
+                                                   0.319089E+04     avg
+      400.000      6.8870       0.999998E+13       0.484875E+03  x-axis
+                                                   0.157752E+04  y-axis
+                                                   0.236332E+04  z-axis
+                                                   0.147524E+04     avg
+      500.000      6.7181       0.999994E+13       0.281470E+03  x-axis
+                                                   0.879156E+03  y-axis
+                                                   0.129803E+04  z-axis
+                                                   0.819553E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.05s CPU      1.22s WALL (    3029 calls)
+     MOB          :      0.07s CPU      0.13s WALL (      30 calls)
+
+     Progression iq (fine) =       3100/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141582E+05  x-axis
+                                                   0.429487E+05  y-axis
+                                                   0.625724E+05  z-axis
+                                                   0.398931E+05     avg
+      200.000      7.2232       0.999994E+13       0.273572E+04  x-axis
+                                                   0.989860E+04  y-axis
+                                                   0.153350E+05  z-axis
+                                                   0.932309E+04     avg
+      300.000      7.0553       0.100000E+14       0.989609E+03  x-axis
+                                                   0.339955E+04  y-axis
+                                                   0.518343E+04  z-axis
+                                                   0.319086E+04     avg
+      400.000      6.8870       0.999998E+13       0.484799E+03  x-axis
+                                                   0.157745E+04  y-axis
+                                                   0.236332E+04  z-axis
+                                                   0.147519E+04     avg
+      500.000      6.7181       0.999994E+13       0.281370E+03  x-axis
+                                                   0.879073E+03  y-axis
+                                                   0.129803E+04  z-axis
+                                                   0.819492E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.07s CPU      1.25s WALL (    3130 calls)
+     MOB          :      0.07s CPU      0.13s WALL (      31 calls)
+
+     Progression iq (fine) =       3200/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480965E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141582E+05  x-axis
+                                                   0.429487E+05  y-axis
+                                                   0.625724E+05  z-axis
+                                                   0.398931E+05     avg
+      200.000      7.2232       0.999994E+13       0.273571E+04  x-axis
+                                                   0.989859E+04  y-axis
+                                                   0.153350E+05  z-axis
+                                                   0.932309E+04     avg
+      300.000      7.0553       0.100000E+14       0.989562E+03  x-axis
+                                                   0.339951E+04  y-axis
+                                                   0.518343E+04  z-axis
+                                                   0.319083E+04     avg
+      400.000      6.8870       0.999998E+13       0.484711E+03  x-axis
+                                                   0.157738E+04  y-axis
+                                                   0.236332E+04  z-axis
+                                                   0.147513E+04     avg
+      500.000      6.7181       0.999994E+13       0.281253E+03  x-axis
+                                                   0.878976E+03  y-axis
+                                                   0.129803E+04  z-axis
+                                                   0.819420E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.10s CPU      1.28s WALL (    3231 calls)
+     MOB          :      0.07s CPU      0.13s WALL (      32 calls)
+
+     Progression iq (fine) =       3300/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480964E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141582E+05  x-axis
+                                                   0.429487E+05  y-axis
+                                                   0.625724E+05  z-axis
+                                                   0.398931E+05     avg
+      200.000      7.2232       0.999994E+13       0.273571E+04  x-axis
+                                                   0.989859E+04  y-axis
+                                                   0.153350E+05  z-axis
+                                                   0.932309E+04     avg
+      300.000      7.0553       0.100000E+14       0.989551E+03  x-axis
+                                                   0.339950E+04  y-axis
+                                                   0.518343E+04  z-axis
+                                                   0.319083E+04     avg
+      400.000      6.8870       0.999998E+13       0.484684E+03  x-axis
+                                                   0.157735E+04  y-axis
+                                                   0.236332E+04  z-axis
+                                                   0.147512E+04     avg
+      500.000      6.7181       0.999994E+13       0.281212E+03  x-axis
+                                                   0.878941E+03  y-axis
+                                                   0.129803E+04  z-axis
+                                                   0.819395E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.12s CPU      1.31s WALL (    3332 calls)
+     MOB          :      0.07s CPU      0.14s WALL (      33 calls)
+
+     Progression iq (fine) =       3400/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999258E+03  x-axis
+                                                   0.141490E+04  y-axis
+                                                   0.204787E+04  z-axis
+                                                   0.148734E+04     avg
+      400.000      6.9823       0.100001E+14       0.473547E+03  x-axis
+                                                   0.638416E+03  y-axis
+                                                   0.856542E+03  z-axis
+                                                   0.656168E+03     avg
+      500.000      7.1740       0.999991E+13       0.295115E+03  x-axis
+                                                   0.377956E+03  y-axis
+                                                   0.480964E+03  z-axis
+                                                   0.384679E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141582E+05  x-axis
+                                                   0.429487E+05  y-axis
+                                                   0.625724E+05  z-axis
+                                                   0.398931E+05     avg
+      200.000      7.2232       0.999994E+13       0.273571E+04  x-axis
+                                                   0.989859E+04  y-axis
+                                                   0.153350E+05  z-axis
+                                                   0.932309E+04     avg
+      300.000      7.0553       0.100000E+14       0.989541E+03  x-axis
+                                                   0.339949E+04  y-axis
+                                                   0.518343E+04  z-axis
+                                                   0.319082E+04     avg
+      400.000      6.8870       0.999998E+13       0.484657E+03  x-axis
+                                                   0.157733E+04  y-axis
+                                                   0.236332E+04  z-axis
+                                                   0.147510E+04     avg
+      500.000      6.7181       0.999994E+13       0.281170E+03  x-axis
+                                                   0.878906E+03  y-axis
+                                                   0.129803E+04  z-axis
+                                                   0.819370E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.14s CPU      1.33s WALL (    3433 calls)
+     MOB          :      0.07s CPU      0.14s WALL (      34 calls)
+
+     Progression iq (fine) =       3500/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999256E+03  x-axis
+                                                   0.141489E+04  y-axis
+                                                   0.204785E+04  z-axis
+                                                   0.148733E+04     avg
+      400.000      6.9823       0.100001E+14       0.473543E+03  x-axis
+                                                   0.638410E+03  y-axis
+                                                   0.856510E+03  z-axis
+                                                   0.656154E+03     avg
+      500.000      7.1740       0.999991E+13       0.295109E+03  x-axis
+                                                   0.377946E+03  y-axis
+                                                   0.480914E+03  z-axis
+                                                   0.384657E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141582E+05  x-axis
+                                                   0.429487E+05  y-axis
+                                                   0.625724E+05  z-axis
+                                                   0.398931E+05     avg
+      200.000      7.2232       0.999994E+13       0.273571E+04  x-axis
+                                                   0.989859E+04  y-axis
+                                                   0.153350E+05  z-axis
+                                                   0.932309E+04     avg
+      300.000      7.0553       0.100000E+14       0.989541E+03  x-axis
+                                                   0.339949E+04  y-axis
+                                                   0.518343E+04  z-axis
+                                                   0.319082E+04     avg
+      400.000      6.8870       0.999998E+13       0.484657E+03  x-axis
+                                                   0.157733E+04  y-axis
+                                                   0.236332E+04  z-axis
+                                                   0.147510E+04     avg
+      500.000      6.7181       0.999994E+13       0.281170E+03  x-axis
+                                                   0.878906E+03  y-axis
+                                                   0.129803E+04  z-axis
+                                                   0.819370E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.16s CPU      1.36s WALL (    3534 calls)
+     MOB          :      0.07s CPU      0.15s WALL (      35 calls)
+
+     Progression iq (fine) =       3600/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404126E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999256E+03  x-axis
+                                                   0.141489E+04  y-axis
+                                                   0.204785E+04  z-axis
+                                                   0.148733E+04     avg
+      400.000      6.9823       0.100001E+14       0.473543E+03  x-axis
+                                                   0.638410E+03  y-axis
+                                                   0.856510E+03  z-axis
+                                                   0.656154E+03     avg
+      500.000      7.1740       0.999991E+13       0.295109E+03  x-axis
+                                                   0.377946E+03  y-axis
+                                                   0.480914E+03  z-axis
+                                                   0.384657E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141582E+05  x-axis
+                                                   0.429487E+05  y-axis
+                                                   0.625724E+05  z-axis
+                                                   0.398931E+05     avg
+      200.000      7.2232       0.999994E+13       0.273571E+04  x-axis
+                                                   0.989859E+04  y-axis
+                                                   0.153350E+05  z-axis
+                                                   0.932309E+04     avg
+      300.000      7.0553       0.100000E+14       0.989540E+03  x-axis
+                                                   0.339949E+04  y-axis
+                                                   0.518343E+04  z-axis
+                                                   0.319082E+04     avg
+      400.000      6.8870       0.999998E+13       0.484657E+03  x-axis
+                                                   0.157733E+04  y-axis
+                                                   0.236331E+04  z-axis
+                                                   0.147510E+04     avg
+      500.000      6.7181       0.999994E+13       0.281169E+03  x-axis
+                                                   0.878902E+03  y-axis
+                                                   0.129803E+04  z-axis
+                                                   0.819366E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.17s CPU      1.37s WALL (    3635 calls)
+     MOB          :      0.07s CPU      0.15s WALL (      36 calls)
+
+     Progression iq (fine) =       3700/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404125E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999229E+03  x-axis
+                                                   0.141487E+04  y-axis
+                                                   0.204785E+04  z-axis
+                                                   0.148732E+04     avg
+      400.000      6.9823       0.100001E+14       0.473486E+03  x-axis
+                                                   0.638344E+03  y-axis
+                                                   0.856493E+03  z-axis
+                                                   0.656108E+03     avg
+      500.000      7.1740       0.999991E+13       0.295027E+03  x-axis
+                                                   0.377835E+03  y-axis
+                                                   0.480884E+03  z-axis
+                                                   0.384582E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141582E+05  x-axis
+                                                   0.429487E+05  y-axis
+                                                   0.625724E+05  z-axis
+                                                   0.398931E+05     avg
+      200.000      7.2232       0.999994E+13       0.273571E+04  x-axis
+                                                   0.989859E+04  y-axis
+                                                   0.153350E+05  z-axis
+                                                   0.932309E+04     avg
+      300.000      7.0553       0.100000E+14       0.989540E+03  x-axis
+                                                   0.339949E+04  y-axis
+                                                   0.518343E+04  z-axis
+                                                   0.319082E+04     avg
+      400.000      6.8870       0.999998E+13       0.484657E+03  x-axis
+                                                   0.157733E+04  y-axis
+                                                   0.236331E+04  z-axis
+                                                   0.147510E+04     avg
+      500.000      6.7181       0.999994E+13       0.281169E+03  x-axis
+                                                   0.878902E+03  y-axis
+                                                   0.129803E+04  z-axis
+                                                   0.819366E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.19s CPU      1.40s WALL (    3736 calls)
+     MOB          :      0.08s CPU      0.15s WALL (      37 calls)
+
+     Progression iq (fine) =       3800/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404125E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999217E+03  x-axis
+                                                   0.141486E+04  y-axis
+                                                   0.204782E+04  z-axis
+                                                   0.148730E+04     avg
+      400.000      6.9823       0.100001E+14       0.473452E+03  x-axis
+                                                   0.638323E+03  y-axis
+                                                   0.856420E+03  z-axis
+                                                   0.656065E+03     avg
+      500.000      7.1740       0.999991E+13       0.294973E+03  x-axis
+                                                   0.377800E+03  y-axis
+                                                   0.480764E+03  z-axis
+                                                   0.384512E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141582E+05  x-axis
+                                                   0.429487E+05  y-axis
+                                                   0.625724E+05  z-axis
+                                                   0.398931E+05     avg
+      200.000      7.2232       0.999994E+13       0.273571E+04  x-axis
+                                                   0.989859E+04  y-axis
+                                                   0.153350E+05  z-axis
+                                                   0.932309E+04     avg
+      300.000      7.0553       0.100000E+14       0.989538E+03  x-axis
+                                                   0.339948E+04  y-axis
+                                                   0.518343E+04  z-axis
+                                                   0.319081E+04     avg
+      400.000      6.8870       0.999998E+13       0.484652E+03  x-axis
+                                                   0.157731E+04  y-axis
+                                                   0.236331E+04  z-axis
+                                                   0.147509E+04     avg
+      500.000      6.7181       0.999994E+13       0.281164E+03  x-axis
+                                                   0.878872E+03  y-axis
+                                                   0.129801E+04  z-axis
+                                                   0.819350E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.21s CPU      1.42s WALL (    3837 calls)
+     MOB          :      0.08s CPU      0.15s WALL (      38 calls)
+
+     Progression iq (fine) =       3900/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404125E+04  x-axis
+                                                   0.584632E+04  y-axis
+                                                   0.938599E+04  z-axis
+                                                   0.642452E+04     avg
+      300.000      6.7918       0.100001E+14       0.999216E+03  x-axis
+                                                   0.141485E+04  y-axis
+                                                   0.204781E+04  z-axis
+                                                   0.148729E+04     avg
+      400.000      6.9823       0.100001E+14       0.473450E+03  x-axis
+                                                   0.638295E+03  y-axis
+                                                   0.856367E+03  z-axis
+                                                   0.656037E+03     avg
+      500.000      7.1740       0.999991E+13       0.294967E+03  x-axis
+                                                   0.377752E+03  y-axis
+                                                   0.480675E+03  z-axis
+                                                   0.384464E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141582E+05  x-axis
+                                                   0.429487E+05  y-axis
+                                                   0.625724E+05  z-axis
+                                                   0.398931E+05     avg
+      200.000      7.2232       0.999994E+13       0.273571E+04  x-axis
+                                                   0.989859E+04  y-axis
+                                                   0.153350E+05  z-axis
+                                                   0.932308E+04     avg
+      300.000      7.0553       0.100000E+14       0.989517E+03  x-axis
+                                                   0.339947E+04  y-axis
+                                                   0.518342E+04  z-axis
+                                                   0.319080E+04     avg
+      400.000      6.8870       0.999998E+13       0.484618E+03  x-axis
+                                                   0.157729E+04  y-axis
+                                                   0.236330E+04  z-axis
+                                                   0.147507E+04     avg
+      500.000      6.7181       0.999994E+13       0.281121E+03  x-axis
+                                                   0.878853E+03  y-axis
+                                                   0.129800E+04  z-axis
+                                                   0.819325E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.23s CPU      1.44s WALL (    3938 calls)
+     MOB          :      0.08s CPU      0.16s WALL (      39 calls)
+
+     Progression iq (fine) =       4000/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404124E+04  x-axis
+                                                   0.584627E+04  y-axis
+                                                   0.938596E+04  z-axis
+                                                   0.642449E+04     avg
+      300.000      6.7918       0.100001E+14       0.999041E+03  x-axis
+                                                   0.141451E+04  y-axis
+                                                   0.204761E+04  z-axis
+                                                   0.148705E+04     avg
+      400.000      6.9823       0.100001E+14       0.472980E+03  x-axis
+                                                   0.637522E+03  y-axis
+                                                   0.855867E+03  z-axis
+                                                   0.655456E+03     avg
+      500.000      7.1740       0.999991E+13       0.294220E+03  x-axis
+                                                   0.376653E+03  y-axis
+                                                   0.479894E+03  z-axis
+                                                   0.383589E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141472E+05  x-axis
+                                                   0.428439E+05  y-axis
+                                                   0.624242E+05  z-axis
+                                                   0.398051E+05     avg
+      200.000      7.2232       0.999994E+13       0.273533E+04  x-axis
+                                                   0.989149E+04  y-axis
+                                                   0.153238E+05  z-axis
+                                                   0.931687E+04     avg
+      300.000      7.0553       0.100000E+14       0.989368E+03  x-axis
+                                                   0.339773E+04  y-axis
+                                                   0.518025E+04  z-axis
+                                                   0.318912E+04     avg
+      400.000      6.8870       0.999998E+13       0.484501E+03  x-axis
+                                                   0.157654E+04  y-axis
+                                                   0.236191E+04  z-axis
+                                                   0.147432E+04     avg
+      500.000      6.7181       0.999994E+13       0.281010E+03  x-axis
+                                                   0.878396E+03  y-axis
+                                                   0.129723E+04  z-axis
+                                                   0.818880E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.27s CPU      1.49s WALL (    4039 calls)
+     MOB          :      0.08s CPU      0.16s WALL (      40 calls)
+
+     Progression iq (fine) =       4100/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.973242E+05  x-axis
+                                                   0.179650E+06  y-axis
+                                                   0.294635E+06  z-axis
+                                                   0.190536E+06     avg
+      200.000      6.6031       0.999999E+13       0.404124E+04  x-axis
+                                                   0.584627E+04  y-axis
+                                                   0.938596E+04  z-axis
+                                                   0.642449E+04     avg
+      300.000      6.7918       0.100001E+14       0.999041E+03  x-axis
+                                                   0.141451E+04  y-axis
+                                                   0.204761E+04  z-axis
+                                                   0.148705E+04     avg
+      400.000      6.9823       0.100001E+14       0.472980E+03  x-axis
+                                                   0.637522E+03  y-axis
+                                                   0.855867E+03  z-axis
+                                                   0.655456E+03     avg
+      500.000      7.1740       0.999991E+13       0.294220E+03  x-axis
+                                                   0.376653E+03  y-axis
+                                                   0.479894E+03  z-axis
+                                                   0.383589E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.141470E+05  x-axis
+                                                   0.428425E+05  y-axis
+                                                   0.624217E+05  z-axis
+                                                   0.398037E+05     avg
+      200.000      7.2232       0.999994E+13       0.273527E+04  x-axis
+                                                   0.989122E+04  y-axis
+                                                   0.153233E+05  z-axis
+                                                   0.931661E+04     avg
+      300.000      7.0553       0.100000E+14       0.989173E+03  x-axis
+                                                   0.339755E+04  y-axis
+                                                   0.518004E+04  z-axis
+                                                   0.318892E+04     avg
+      400.000      6.8870       0.999998E+13       0.484166E+03  x-axis
+                                                   0.157631E+04  y-axis
+                                                   0.236172E+04  z-axis
+                                                   0.147407E+04     avg
+      500.000      6.7181       0.999994E+13       0.280595E+03  x-axis
+                                                   0.878114E+03  y-axis
+                                                   0.129704E+04  z-axis
+                                                   0.818583E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.29s CPU      1.51s WALL (    4140 calls)
+     MOB          :      0.08s CPU      0.16s WALL (      41 calls)
+
+     Progression iq (fine) =       4200/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.915420E+05  x-axis
+                                                   0.169287E+06  y-axis
+                                                   0.277700E+06  z-axis
+                                                   0.179510E+06     avg
+      200.000      6.6031       0.999999E+13       0.389379E+04  x-axis
+                                                   0.569989E+04  y-axis
+                                                   0.913842E+04  z-axis
+                                                   0.624403E+04     avg
+      300.000      6.7918       0.100001E+14       0.960423E+03  x-axis
+                                                   0.137322E+04  y-axis
+                                                   0.199457E+04  z-axis
+                                                   0.144274E+04     avg
+      400.000      6.9823       0.100001E+14       0.452187E+03  x-axis
+                                                   0.612714E+03  y-axis
+                                                   0.831093E+03  z-axis
+                                                   0.631998E+03     avg
+      500.000      7.1740       0.999991E+13       0.279444E+03  x-axis
+                                                   0.358058E+03  y-axis
+                                                   0.463863E+03  z-axis
+                                                   0.367122E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.112527E+05  x-axis
+                                                   0.271715E+05  y-axis
+                                                   0.545035E+05  z-axis
+                                                   0.309759E+05     avg
+      200.000      7.2232       0.999994E+13       0.214502E+04  x-axis
+                                                   0.506409E+04  y-axis
+                                                   0.129553E+05  z-axis
+                                                   0.672148E+04     avg
+      300.000      7.0553       0.100000E+14       0.794063E+03  x-axis
+                                                   0.188701E+04  y-axis
+                                                   0.434604E+04  z-axis
+                                                   0.234237E+04     avg
+      400.000      6.8870       0.999998E+13       0.396714E+03  x-axis
+                                                   0.943267E+03  y-axis
+                                                   0.198503E+04  z-axis
+                                                   0.110834E+04     avg
+      500.000      6.7181       0.999994E+13       0.233742E+03  x-axis
+                                                   0.551264E+03  y-axis
+                                                   0.109413E+04  z-axis
+                                                   0.626379E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.34s CPU      1.57s WALL (    4241 calls)
+     MOB          :      0.08s CPU      0.17s WALL (      42 calls)
+
+     Progression iq (fine) =       4300/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.915420E+05  x-axis
+                                                   0.169287E+06  y-axis
+                                                   0.277700E+06  z-axis
+                                                   0.179510E+06     avg
+      200.000      6.6031       0.999999E+13       0.389373E+04  x-axis
+                                                   0.569944E+04  y-axis
+                                                   0.913815E+04  z-axis
+                                                   0.624377E+04     avg
+      300.000      6.7918       0.100001E+14       0.960266E+03  x-axis
+                                                   0.137221E+04  y-axis
+                                                   0.199420E+04  z-axis
+                                                   0.144222E+04     avg
+      400.000      6.9823       0.100001E+14       0.451907E+03  x-axis
+                                                   0.611479E+03  y-axis
+                                                   0.830598E+03  z-axis
+                                                   0.631328E+03     avg
+      500.000      7.1740       0.999991E+13       0.279070E+03  x-axis
+                                                   0.356838E+03  y-axis
+                                                   0.463284E+03  z-axis
+                                                   0.366397E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.112500E+05  x-axis
+                                                   0.271649E+05  y-axis
+                                                   0.545022E+05  z-axis
+                                                   0.309724E+05     avg
+      200.000      7.2232       0.999994E+13       0.214267E+04  x-axis
+                                                   0.505797E+04  y-axis
+                                                   0.129543E+05  z-axis
+                                                   0.671830E+04     avg
+      300.000      7.0553       0.100000E+14       0.792638E+03  x-axis
+                                                   0.188298E+04  y-axis
+                                                   0.434530E+04  z-axis
+                                                   0.234031E+04     avg
+      400.000      6.8870       0.999998E+13       0.395800E+03  x-axis
+                                                   0.940656E+03  y-axis
+                                                   0.198451E+04  z-axis
+                                                   0.110699E+04     avg
+      500.000      6.7181       0.999994E+13       0.233095E+03  x-axis
+                                                   0.549491E+03  y-axis
+                                                   0.109374E+04  z-axis
+                                                   0.625444E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.38s CPU      1.62s WALL (    4342 calls)
+     MOB          :      0.08s CPU      0.17s WALL (      43 calls)
+
+     Progression iq (fine) =       4400/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.915420E+05  x-axis
+                                                   0.169287E+06  y-axis
+                                                   0.277700E+06  z-axis
+                                                   0.179510E+06     avg
+      200.000      6.6031       0.999999E+13       0.389373E+04  x-axis
+                                                   0.569944E+04  y-axis
+                                                   0.913810E+04  z-axis
+                                                   0.624375E+04     avg
+      300.000      6.7918       0.100001E+14       0.960222E+03  x-axis
+                                                   0.137217E+04  y-axis
+                                                   0.199397E+04  z-axis
+                                                   0.144212E+04     avg
+      400.000      6.9823       0.100001E+14       0.451791E+03  x-axis
+                                                   0.611386E+03  y-axis
+                                                   0.830224E+03  z-axis
+                                                   0.631134E+03     avg
+      500.000      7.1740       0.999991E+13       0.278887E+03  x-axis
+                                                   0.356689E+03  y-axis
+                                                   0.462833E+03  z-axis
+                                                   0.366136E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.112476E+05  x-axis
+                                                   0.271611E+05  y-axis
+                                                   0.544599E+05  z-axis
+                                                   0.309562E+05     avg
+      200.000      7.2232       0.999994E+13       0.214164E+04  x-axis
+                                                   0.505691E+04  y-axis
+                                                   0.129026E+05  z-axis
+                                                   0.670038E+04     avg
+      300.000      7.0553       0.100000E+14       0.792045E+03  x-axis
+                                                   0.188255E+04  y-axis
+                                                   0.431789E+04  z-axis
+                                                   0.233083E+04     avg
+      400.000      6.8870       0.999998E+13       0.395403E+03  x-axis
+                                                   0.940424E+03  y-axis
+                                                   0.196986E+04  z-axis
+                                                   0.110189E+04     avg
+      500.000      6.7181       0.999994E+13       0.232799E+03  x-axis
+                                                   0.549335E+03  y-axis
+                                                   0.108500E+04  z-axis
+                                                   0.622378E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.42s CPU      1.66s WALL (    4443 calls)
+     MOB          :      0.09s CPU      0.18s WALL (      44 calls)
+
+     Progression iq (fine) =       4500/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.575788E+05  x-axis
+                                                   0.111632E+06  y-axis
+                                                   0.187620E+06  z-axis
+                                                   0.118944E+06     avg
+      200.000      6.6031       0.999999E+13       0.315315E+04  x-axis
+                                                   0.441008E+04  y-axis
+                                                   0.721483E+04  z-axis
+                                                   0.492602E+04     avg
+      300.000      6.7918       0.100001E+14       0.760955E+03  x-axis
+                                                   0.103698E+04  y-axis
+                                                   0.154709E+04  z-axis
+                                                   0.111501E+04     avg
+      400.000      6.9823       0.100001E+14       0.353699E+03  x-axis
+                                                   0.455250E+03  y-axis
+                                                   0.639099E+03  z-axis
+                                                   0.482683E+03     avg
+      500.000      7.1740       0.999991E+13       0.216937E+03  x-axis
+                                                   0.263345E+03  y-axis
+                                                   0.355185E+03  z-axis
+                                                   0.278489E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.951469E+04  x-axis
+                                                   0.267047E+05  y-axis
+                                                   0.274492E+05  z-axis
+                                                   0.212229E+05     avg
+      200.000      7.2232       0.999994E+13       0.175880E+04  x-axis
+                                                   0.498560E+04  y-axis
+                                                   0.501684E+04  z-axis
+                                                   0.392041E+04     avg
+      300.000      7.0553       0.100000E+14       0.651176E+03  x-axis
+                                                   0.183883E+04  y-axis
+                                                   0.185359E+04  z-axis
+                                                   0.144786E+04     avg
+      400.000      6.8870       0.999998E+13       0.326548E+03  x-axis
+                                                   0.912563E+03  y-axis
+                                                   0.921893E+03  z-axis
+                                                   0.720334E+03     avg
+      500.000      6.7181       0.999994E+13       0.193178E+03  x-axis
+                                                   0.531487E+03  y-axis
+                                                   0.536588E+03  z-axis
+                                                   0.420418E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.49s CPU      1.74s WALL (    4544 calls)
+     MOB          :      0.09s CPU      0.18s WALL (      45 calls)
+
+     Progression iq (fine) =       4600/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.575788E+05  x-axis
+                                                   0.111632E+06  y-axis
+                                                   0.187620E+06  z-axis
+                                                   0.118944E+06     avg
+      200.000      6.6031       0.999999E+13       0.315315E+04  x-axis
+                                                   0.441008E+04  y-axis
+                                                   0.721483E+04  z-axis
+                                                   0.492602E+04     avg
+      300.000      6.7918       0.100001E+14       0.760955E+03  x-axis
+                                                   0.103698E+04  y-axis
+                                                   0.154709E+04  z-axis
+                                                   0.111501E+04     avg
+      400.000      6.9823       0.100001E+14       0.353699E+03  x-axis
+                                                   0.455250E+03  y-axis
+                                                   0.639098E+03  z-axis
+                                                   0.482683E+03     avg
+      500.000      7.1740       0.999991E+13       0.216937E+03  x-axis
+                                                   0.263345E+03  y-axis
+                                                   0.355183E+03  z-axis
+                                                   0.278488E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.949983E+04  x-axis
+                                                   0.266455E+05  y-axis
+                                                   0.274276E+05  z-axis
+                                                   0.211910E+05     avg
+      200.000      7.2232       0.999994E+13       0.173820E+04  x-axis
+                                                   0.490056E+04  y-axis
+                                                   0.498721E+04  z-axis
+                                                   0.387532E+04     avg
+      300.000      7.0553       0.100000E+14       0.637822E+03  x-axis
+                                                   0.179122E+04  y-axis
+                                                   0.182659E+04  z-axis
+                                                   0.141854E+04     avg
+      400.000      6.8870       0.999998E+13       0.318084E+03  x-axis
+                                                   0.884177E+03  y-axis
+                                                   0.903292E+03  z-axis
+                                                   0.701851E+03     avg
+      500.000      6.7181       0.999994E+13       0.187523E+03  x-axis
+                                                   0.512611E+03  y-axis
+                                                   0.524470E+03  z-axis
+                                                   0.408201E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.53s CPU      1.78s WALL (    4645 calls)
+     MOB          :      0.09s CPU      0.18s WALL (      46 calls)
+
+     Progression iq (fine) =       4700/      4714
+     Creation of a restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.569946E+05  x-axis
+                                                   0.110406E+06  y-axis
+                                                   0.186094E+06  z-axis
+                                                   0.117831E+06     avg
+      200.000      6.6031       0.999999E+13       0.302049E+04  x-axis
+                                                   0.428187E+04  y-axis
+                                                   0.700724E+04  z-axis
+                                                   0.476987E+04     avg
+      300.000      6.7918       0.100001E+14       0.720712E+03  x-axis
+                                                   0.998389E+03  y-axis
+                                                   0.149008E+04  z-axis
+                                                   0.106973E+04     avg
+      400.000      6.9823       0.100001E+14       0.332972E+03  x-axis
+                                                   0.436459E+03  y-axis
+                                                   0.611693E+03  z-axis
+                                                   0.460375E+03     avg
+      500.000      7.1740       0.999991E+13       0.203647E+03  x-axis
+                                                   0.251797E+03  y-axis
+                                                   0.338425E+03  z-axis
+                                                   0.264623E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.949983E+04  x-axis
+                                                   0.266455E+05  y-axis
+                                                   0.274276E+05  z-axis
+                                                   0.211910E+05     avg
+      200.000      7.2232       0.999994E+13       0.173818E+04  x-axis
+                                                   0.490056E+04  y-axis
+                                                   0.498713E+04  z-axis
+                                                   0.387529E+04     avg
+      300.000      7.0553       0.100000E+14       0.637766E+03  x-axis
+                                                   0.179121E+04  y-axis
+                                                   0.182653E+04  z-axis
+                                                   0.141850E+04     avg
+      400.000      6.8870       0.999998E+13       0.317996E+03  x-axis
+                                                   0.884156E+03  y-axis
+                                                   0.903237E+03  z-axis
+                                                   0.701796E+03     avg
+      500.000      6.7181       0.999994E+13       0.187411E+03  x-axis
+                                                   0.512571E+03  y-axis
+                                                   0.524399E+03  z-axis
+                                                   0.408127E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.58s CPU      1.84s WALL (    4746 calls)
+     MOB          :      0.09s CPU      0.19s WALL (      47 calls)
+
+     Temperature  100.000 K
+     Average over degenerate eigenstates is performed
+     Average over degenerate eigenstates in CB is performed
+
+     Writing scattering rate to file
+
+     Temperature  200.000 K
+     Average over degenerate eigenstates is performed
+     Average over degenerate eigenstates in CB is performed
+
+     Writing scattering rate to file
+
+     Temperature  300.000 K
+     Average over degenerate eigenstates is performed
+     Average over degenerate eigenstates in CB is performed
+
+     Writing scattering rate to file
+
+     Temperature  400.000 K
+     Average over degenerate eigenstates is performed
+     Average over degenerate eigenstates in CB is performed
+
+     Writing scattering rate to file
+
+     Temperature  500.000 K
+     Average over degenerate eigenstates is performed
+     Average over degenerate eigenstates in CB is performed
+
+     Writing scattering rate to file
+
+     Creation of the final restart point
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Hole density [cm^-3]  Hole mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      6.4171       0.999996E+13       0.545163E+05  x-axis
+                                                   0.683674E+05  y-axis
+                                                   0.143254E+06  z-axis
+                                                   0.887125E+05     avg
+      200.000      6.6031       0.999999E+13       0.278264E+04  x-axis
+                                                   0.393778E+04  y-axis
+                                                   0.647873E+04  z-axis
+                                                   0.439971E+04     avg
+      300.000      6.7918       0.100001E+14       0.661335E+03  x-axis
+                                                   0.924061E+03  y-axis
+                                                   0.138147E+04  z-axis
+                                                   0.988954E+03     avg
+      400.000      6.9823       0.100001E+14       0.306212E+03  x-axis
+                                                   0.404076E+03  y-axis
+                                                   0.567715E+03  z-axis
+                                                   0.426001E+03     avg
+      500.000      7.1740       0.999991E+13       0.187862E+03  x-axis
+                                                   0.233363E+03  y-axis
+                                                   0.314429E+03  z-axis
+                                                   0.245218E+03     avg
+
+     ===================================================================
+     Temp [K]  Fermi [eV]  Elec density [cm^-3]  Elec mobility [cm^2/Vs]
+     ===================================================================
+
+      100.000      7.3909       0.999990E+13       0.949928E+04  x-axis
+                                                   0.266441E+05  y-axis
+                                                   0.274259E+05  z-axis
+                                                   0.211897E+05     avg
+      200.000      7.2232       0.999994E+13       0.173731E+04  x-axis
+                                                   0.489831E+04  y-axis
+                                                   0.498448E+04  z-axis
+                                                   0.387337E+04     avg
+      300.000      7.0553       0.100000E+14       0.637103E+03  x-axis
+                                                   0.178944E+04  y-axis
+                                                   0.182475E+04  z-axis
+                                                   0.141710E+04     avg
+      400.000      6.8870       0.999998E+13       0.317528E+03  x-axis
+                                                   0.883008E+03  y-axis
+                                                   0.902040E+03  z-axis
+                                                   0.700858E+03     avg
+      500.000      6.7181       0.999994E+13       0.187070E+03  x-axis
+                                                   0.511836E+03  y-axis
+                                                   0.523530E+03  z-axis
+                                                   0.407479E+03     avg
+
+     Note: Mobility are sorted by ascending values and might not correspond
+                                              to the expected (x,y,z) axis.
+
+     Total time so far
+     SCAT         :      1.61s CPU      1.87s WALL (    4761 calls)
+     MOB          :      0.09s CPU      0.19s WALL (      48 calls)
+
+     ===================================================================
+     Memory usage:  VmHWM =        29Mb
+                   VmPeak =       278Mb
+     ===================================================================
+
+
+     Unfolding on the coarse grid
+     elphon_wrap  :      0.00s CPU      0.00s WALL (       1 calls)
+
+     INITIALIZATION: 
+
+
+
+
+     Electron-Phonon interpolation
+     ephwann      :     75.27s CPU     91.73s WALL (       1 calls)
+     ep-interp    :     67.68s CPU     83.92s WALL (    4714 calls)
+
+     DynW2B       :      0.19s CPU      0.21s WALL (    4714 calls)
+     HamW2B       :     11.23s CPU     11.95s WALL (  214447 calls)
+     ephW2Bp      :     48.74s CPU     63.60s WALL (    4714 calls)
+     ephW2B       :      3.10s CPU      3.26s WALL (   12035 calls)
+     vmewan2bloch :      5.23s CPU      5.52s WALL (   24070 calls)
+     vmewan2bloch :      5.23s CPU      5.52s WALL (   24070 calls)
+
+
+     Total program execution
+     EPW          :   1m15.28s CPU   1m31.74s WALL
+
+     ===============================================================================
+     The functionality-dependent EPW.bib file was created with suggested citations. 
+     Please consider citing the papers listed in EPW.bib.                           
+     ===============================================================================
+                                                                                    
